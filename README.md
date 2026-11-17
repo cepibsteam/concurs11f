@@ -8,23 +8,20 @@ Web del concurs 11F del CEP IBSTEAM, publicada amb GitHub Pages.
 ## Estructura
 
 ```
-index.html        Portada: edició actual i enllaços a les edicions anteriors
-css/estil.css     Estils de la portada i de l'edició actual
-2026/             Arxiu de l'edició 2026 (autònom: té els seus estils i imatges)
-  eines/          Scripts per descarregar les imatges del WordPress antic
+index.html        Portada: edició 2027, cartell, inscripció i taula rodona
+css/estil.css     Estils de l'edició actual
+img/              Logos d'IBSTEAM i de la Conselleria
+bases/            Bases 2027
+rubriques/        Rúbriques de valoració 2027
+taula-rodona/     Taula rodona 2027
+docs/             PDF de les bases, les rúbriques, l'autorització i el cartell
+2026/             Arxiu de l'edició 2026 (té els seus propis estils)
 ```
 
-## Abans de pujar-ho: descarrega les imatges de 2026
+## Formulari d'inscripció
 
-Des de la xarxa interna, a la carpeta `2026`:
+https://forms.gle/H7pdxUzxfFwJv7iv5 (obert del 7 al 22 de gener de 2027, fins a les 23.59 h)
 
-- Windows: `powershell -ExecutionPolicy Bypass -File eines\descarrega-imatges.ps1`
-- Mac/Linux: `sh eines/descarrega-imatges.sh`
+## Nova edició
 
-Es crearà la carpeta `2026/img/` amb 56 imatges. Els detalls i els pendents de revisió de 2026 són a `2026/LLEGEIX-2026.md`.
-
-## En acabar cada edició
-
-1. Copia la portada i les pàgines de l'edició actual dins una carpeta amb el seu any (per exemple `2027/`).
-2. Afegeix una targeta a "Edicions anteriors" a `index.html`.
-3. Prepara la portada per a la convocatòria següent.
+Per a l'edició 2028, copiau l'edició actual dins una carpeta `2027/` i actualitzau la portada.
